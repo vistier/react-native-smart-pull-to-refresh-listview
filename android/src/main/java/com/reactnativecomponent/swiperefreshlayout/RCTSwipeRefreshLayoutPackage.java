@@ -20,7 +20,7 @@ public class RCTSwipeRefreshLayoutPackage implements ReactPackage {
         return Collections.emptyList();
     }
 
-    @Override
+    // @Override fix RN047
     public List<Class<? extends JavaScriptModule>> createJSModules() {
         return Collections.emptyList();
     }
