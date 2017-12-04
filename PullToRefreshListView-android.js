@@ -6,9 +6,8 @@
  */
 
 import React, {
-    PropTypes,
     Component,
-} from 'react'
+} from 'react';
 import {
     View,
     ScrollView,
@@ -17,23 +16,24 @@ import {
     Text,
     Platform,
     Dimensions,
-} from 'react-native'
+} from 'react-native';
+import PropTypes from 'prop-types';
 
 //import TimerEnhance from '../react-native-smart-timer-enhance'
-import TimerEnhance from 'react-native-smart-timer-enhance'
-import { withinErrorMargin, } from './utils'
+import TimerEnhance from 'react-native-smart-timer-enhance';
+import { withinErrorMargin, } from './utils';
 import constants, {
     viewType,
     viewState,
     refreshViewType,
     refreshAnimationDuration,
     scrollBounceAnimationDuration,
-} from './constants'
-import { easeOutCirc, } from './easing'
-import RefreshView from './RefreshView'
-import AndroidSwipeRefreshLayout from './AndroidSwipeRefreshLayout'
-import ListItem from './ListItem'
-import FloatSectionHeader from './AndroidFloatSectionHeader'
+} from './constants';
+import { easeOutCirc, } from './easing';
+import RefreshView from './RefreshView';
+import AndroidSwipeRefreshLayout from './AndroidSwipeRefreshLayout';
+import ListItem from './ListItem';
+import FloatSectionHeader from './AndroidFloatSectionHeader';
 
 //temp log code
 //import Temp from 'react-native-fs'

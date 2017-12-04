@@ -1,11 +1,11 @@
 
 import React, {
-    PropTypes,
     Component,
-} from 'react'
+} from 'react';
 import {
     View,
-} from 'react-native'
+} from 'react-native';
+import PropTypes from 'prop-types';
 
 export default class ListItem extends Component {
 

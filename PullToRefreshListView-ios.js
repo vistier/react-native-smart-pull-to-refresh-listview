@@ -6,9 +6,8 @@
  */
 
 import React, {
-    PropTypes,
     Component,
-} from 'react'
+} from 'react';
 import {
     View,
     ScrollView,
@@ -16,21 +15,22 @@ import {
     StyleSheet,
     Text,
     Platform,
-} from 'react-native'
+} from 'react-native';
+import PropTypes from 'prop-types';
 
 //import TimerEnhance from '../react-native-smart-timer-enhance'
-import TimerEnhance from 'react-native-smart-timer-enhance'
-import { withinErrorMargin, } from './utils'
+import TimerEnhance from 'react-native-smart-timer-enhance';
+import { withinErrorMargin, } from './utils';
 import constants, {
     viewType,
     viewState,
     refreshViewType,
     refreshAnimationDuration,
     scrollBounceAnimationDuration,
-} from './constants'
-import { easeOutCirc, } from './easing'
-import RefreshView from './RefreshView'
-import ListItem from './ListItem'
+} from './constants';
+import { easeOutCirc, } from './easing';
+import RefreshView from './RefreshView';
+import ListItem from './ListItem';
 
 const styles = StyleSheet.create({
     header: {

@@ -1,10 +1,10 @@
 import React, {
     Component,
-    PropTypes,
 } from 'react'
 import {
     View,
-} from 'react-native'
+} from 'react-native';
+import PropTypes from 'prop-types';
 
 import constants from './constants'
 
